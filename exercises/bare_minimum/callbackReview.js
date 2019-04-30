@@ -15,7 +15,7 @@ pluckFirstLineFromFile = (filePath, callback) => {
       line.length = 1;
       callback(null, line.toString());
     }
-  })
+  });
 };
 
 // This function should retrieve the status code of a GET request to `url`
